@@ -8,6 +8,8 @@ class Genre
   end
   
   def self.all
+    @@all
+  end
   
   
   
