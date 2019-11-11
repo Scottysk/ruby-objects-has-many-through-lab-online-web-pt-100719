@@ -13,6 +13,8 @@ class Patient
     @@all
   end
   
+  def appointments
+  
   
   
   
