@@ -16,7 +16,7 @@ class Appointment
   end
   
   def patients
-    @patient
+    self.patient
   end
   
   
