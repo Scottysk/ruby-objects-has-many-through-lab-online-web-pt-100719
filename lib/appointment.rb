@@ -19,6 +19,10 @@ class Appointment
     self.patient
   end
   
+  def doctors
+    self.doctor
+  end
+  
   
   
 end
