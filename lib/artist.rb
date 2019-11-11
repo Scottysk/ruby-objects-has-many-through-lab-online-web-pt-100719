@@ -13,7 +13,7 @@ class Artist
     @@all
   end
   
-  def new_songs
+  def new_song
   
   def songs 
     Song.all.select do |song|
