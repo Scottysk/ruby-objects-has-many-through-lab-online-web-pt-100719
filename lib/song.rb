@@ -1,0 +1,8 @@
+class Song
+  
+  @@all = []
+  
+  
+  
+  
+end
