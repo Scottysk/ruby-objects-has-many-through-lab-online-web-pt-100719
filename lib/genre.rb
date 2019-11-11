@@ -13,6 +13,9 @@ class Genre
     @@all
   end
   
+  def songs
+    Songs.select.all 
+  
   
   
 end
