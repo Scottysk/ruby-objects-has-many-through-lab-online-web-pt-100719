@@ -24,6 +24,7 @@ class Artist
   end
   
   def genres
+    song.all
   
   
   
