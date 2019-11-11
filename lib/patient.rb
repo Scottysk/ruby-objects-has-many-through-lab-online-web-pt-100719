@@ -1,6 +1,6 @@
 class Patient
   
-  attr_accessor :name
+  attr_accessor :name, :appointment, :doctor
   
   @@all = []
   
@@ -14,6 +14,8 @@ class Patient
   end
   
   def new_appointment(doctor, date)
+    
+  end
   
   def appointments
     Appointment.all.select do |appointment|
